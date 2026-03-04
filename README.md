@@ -13,6 +13,7 @@ The system combines exploratory data analysis, feature engineering, multiple mac
 
 
 ### 2. Tech Stack and Skills Used 
+
 The system was developed using the following technologies:
 
 -**Python** – Core programming and analysis
@@ -32,25 +33,54 @@ The system was developed using the following technologies:
 The dataset is based on a publicly available Telecom Customer Churn dataset commonly used for predictive analytics tasks.
 
 **It includes customer-level information such as :**
-'CustomerID', Gender, Tenure, Contract Type, Payment Method, Internet Service, Monthly Charges, Total Charges, and Churn Status.
+'CustomerID', 'Gender', 'Tenure', 'Contract Type', 'Payment Method', 'Internet Service', 'Monthly Charges', 'Total Charges' and 'Churn Status'.
 
-The dataset enables behavioral, financial, and demographic analysis for churn prediction modeling.
+The dataset enables behavioral, financial, and demographic analysis for churn prediction 
+modeling.
+
+
+---
+
 
 ### 4. Highlights of the Project
-Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
+-Conducted comprehensive exploratory data analysis to identify churn patterns.
+-Engineered additional features such as service usage count and tenure segmentation.
+-Built and compared multiple models including Logistic Regression, Random Forest, and XGBoost.
+-Evaluated models using cross-validation and ROC-AUC metrics.
+-Identified top churn drivers influencing customer exit behavior.
+-Simulated financial impact of retention campaigns using projected revenue loss estimates.
+-Structured the project as a complete end-to-end ML workflow from raw data to business strategy.
+
+
+
+---
+
 
 ### 5. Key Insights of the Project
+-Customers on month-to-month contracts showed significantly higher churn rates.
+-Lower tenure customers were more likely to churn.
+-Higher monthly charges increased churn probability.
+-Customers using fewer services demonstrated higher churn risk.
+-Contract duration and engagement level were strong predictive indicators.
+
 Best Model: Random Forest / XGBoost  
 Accuracy: 84%  
 Precision & Recall optimized for business retention strategy.
 
+
 ---
+
 
 ### 6. Business Impact
-
+-Enabled early identification of high-risk customers for targeted retention campaigns.
+-Estimated potential revenue savings through proactive retention strategies.
+-Provided actionable recommendations for contract restructuring and loyalty incentives.
+-Demonstrated how predictive analytics can reduce churn-related financial loss.
 
 
 ---
+
+
 ### 7. Screenshots
 
 
