@@ -13,14 +13,28 @@ The system combines exploratory data analysis, feature engineering, multiple mac
 
 
 ### 2. Tech Stack and Skills Used 
-- Month-to-month contract customers show highest churn
-- High monthly charges increase churn probability
-- Short tenure customers are high-risk
+The system was developed using the following technologies:
+
+-**Python** – Core programming and analysis
+-**Pandas & NumPy** – Data manipulation and numerical analysis
+-**Matplotlib & Seaborn** – Data visualization and trend analysis
+-**Scikit-learn** – Model building, evaluation, and preprocessing
+-**XGBoost** – Gradient boosting model for improved performance
+-**Feature Engineering** – Behavioral and financial feature creation
+-**Model Evaluation Metrics** – Accuracy, Precision, Recall, ROC-AUC
+-**Business Analytics** – Revenue impact simulation and retention strategy modeling
+
+
+---
+
 
 ### 3. Data Source 
-- Offer loyalty discounts for early-stage customers
-- Incentivize long-term contracts
-- Launch targeted retention campaigns
+The dataset is based on a publicly available Telecom Customer Churn dataset commonly used for predictive analytics tasks.
+
+**It includes customer-level information such as :**
+'CustomerID', Gender, Tenure, Contract Type, Payment Method, Internet Service, Monthly Charges, Total Charges, and Churn Status.
+
+The dataset enables behavioral, financial, and demographic analysis for churn prediction modeling.
 
 ### 4. Highlights of the Project
 Python, Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
