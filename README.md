@@ -85,7 +85,15 @@ Precision & Recall optimized for business retention strategy.
 
 INSIGHT TO SOME OF THE PROJECT OUTPUTS WE ACHIEVED :
 
-## Churn Distribution & Monthly Charges Analysis
+## 1. Count
+
+
+
+
+![Count](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/count.jpg.jpeg)
+
+
+## 2. Churn Distribution & Monthly Charges Analysis
 This visualization highlights the distribution of churned vs retained customers and compares monthly charge patterns across both groups.
 
 - The dataset shows class imbalance, with more retained customers than churned customers.
@@ -94,6 +102,34 @@ This visualization highlights the distribution of churned vs retained customers 
 
 High-paying customers represent elevated revenue risk. Pricing optimization and value-added incentives may reduce churn within this segment.
 
-![Monthly](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/monthlycharges.jpg.jpeg)
+![Churn vs Monthly Charges](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/monthlycharges.jpg.jpeg)
+
+## 3. Tenure vs Churn Behavior Analysis
+This boxplot compares customer tenure between churned and retained users to understand lifecycle-based churn behavior.
+
+- Customers with low tenure are significantly more likely to churn.
+- Long-term customers demonstrate strong retention stability.
+- Early customer lifecycle stages are the most vulnerable period.
+
+Retention strategies should focus heavily on onboarding and early engagement programs to prevent initial drop-off.
+
+![Retention by Tenure Segment](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/tenure.jpg.jpeg)
+
+## 4. ROC Curve 
+The ROC Curve evaluates the classification performance of the Random Forest model across different probability thresholds.
+
+- The curve demonstrates strong separation from the baseline (random classifier).
+- High true positive rate across thresholds indicates reliable churn detection.
+- The model effectively balances sensitivity and specificity.
+
+The model can confidently identify high-risk customers, enabling targeted retention efforts with optimized precision–recall trade-offs.
+
+![Model Performance Evaluation](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/roc.jpg.jpeg)
+
+## 5. SHAP
+
+
+
+
 
 This project demonstrates both technical ML capability and business decision-making intelligence.
