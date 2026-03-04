@@ -85,7 +85,7 @@ Precision & Recall optimized for business retention strategy.
 
 INSIGHT TO SOME OF THE PROJECT OUTPUTS WE ACHIEVED :
 
-## 1. Count
+## Count
 
 
 
@@ -93,7 +93,7 @@ INSIGHT TO SOME OF THE PROJECT OUTPUTS WE ACHIEVED :
 ![Count](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/count.jpg.jpeg)
 
 
-## 2. Churn Distribution & Monthly Charges Analysis
+## Churn Distribution & Monthly Charges Analysis
 This visualization highlights the distribution of churned vs retained customers and compares monthly charge patterns across both groups.
 
 - The dataset shows class imbalance, with more retained customers than churned customers.
@@ -104,7 +104,7 @@ High-paying customers represent elevated revenue risk. Pricing optimization and 
 
 ![Churn vs Monthly Charges](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/monthlycharges.jpg.jpeg)
 
-## 3. Tenure vs Churn Behavior Analysis
+## Tenure vs Churn Behavior Analysis
 This boxplot compares customer tenure between churned and retained users to understand lifecycle-based churn behavior.
 
 - Customers with low tenure are significantly more likely to churn.
@@ -115,7 +115,7 @@ Retention strategies should focus heavily on onboarding and early engagement pro
 
 ![Retention by Tenure Segment](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/tenure.jpg.jpeg)
 
-## 4. ROC Curve 
+## ROC Curve 
 The ROC Curve evaluates the classification performance of the Random Forest model across different probability thresholds.
 
 - The curve demonstrates strong separation from the baseline (random classifier).
@@ -126,9 +126,11 @@ The model can confidently identify high-risk customers, enabling targeted retent
 
 ![Model Performance Evaluation](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/roc.jpg.jpeg)
 
-## 5. SHAP
+## SHAP
 
 
+
+![Shap](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/shap.jpg.jpeg)
 
 
 
