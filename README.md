@@ -83,7 +83,17 @@ Precision & Recall optimized for business retention strategy.
 
 ### 7. Screenshots
 
+INSIGHT TO SOME OF THE PROJECT OUTPUTS WE ACHIEVED :
 
+## Churn Distribution & Monthly Charges Analysis
+This visualization highlights the distribution of churned vs retained customers and compares monthly charge patterns across both groups.
 
+- The dataset shows class imbalance, with more retained customers than churned customers.
+- Customers who churn exhibit a higher median monthly charge.
+- Higher billing amounts are associated with increased churn probability, indicating potential price sensitivity.
+
+High-paying customers represent elevated revenue risk. Pricing optimization and value-added incentives may reduce churn within this segment.
+
+![Monthly](https://github.com/sinharitamvaraa/customer-churn-intelligence-system/blob/main/monthlycharges.jpg.jpeg)
 
 This project demonstrates both technical ML capability and business decision-making intelligence.
